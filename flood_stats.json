@@ -1,6 +1,6 @@
 {
   "schema": "roads-at-risk-flood-stats-v2",
-  "generatedAt": "2026-08-10T23:22:15.787Z",
+  "generatedAt": "2026-08-10T23:35:30.995Z",
   "gaugeName": "Atlantic City Marina",
   "station": {
     "usgsGaugeId": "01410600",
