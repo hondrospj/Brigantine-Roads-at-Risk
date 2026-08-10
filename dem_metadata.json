@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Brigantine DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Brigantine boundary, adaptively resampled to 9.3 ft pixels to keep the browser-delivered raster within operational size limits, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 2.8383144710643187,
+  "pixelSizeFeet": 9.31205535122364,
+  "adaptiveResolution": true,
+  "width": 3815,
+  "height": 4194,
+  "nodata": -999999,
+  "minMeters": -1.656,
+  "maxMeters": 10.108,
+  "meanMeters": 0.735,
+  "stdDevMeters": 1.045,
+  "minFeet": -5.4330708661200005,
+  "maxFeet": 33.162729658660005,
+  "webMercatorBounds": [
+    -8284587.718325,
+    4774595.097693356,
+    -8273759.54861789,
+    4786498.988585
+  ],
+  "leafletBounds": [
+    [
+      39.3685056,
+      -74.4217177
+    ],
+    [
+      39.4511255,
+      -74.3244469
+    ]
+  ],
+  "files": {
+    "demCog": "brigantine_dem_5ft_cog.tif",
+    "hillshadeCog": "brigantine_hillshade_cog.tif",
+    "hillshadePng": "brigantine_hillshade.png",
+    "boundaryGeojson": "brigantine_boundary.geojson"
+  }
+}
