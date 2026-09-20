@@ -1,0 +1,16 @@
+{
+  "schema": "nj-road-risk-gauge-pipeline-v2",
+  "releaseVersion": "20260920-nj-universal-v2",
+  "floodmapperRepo": "Brigantine-floodmapper",
+  "sourcePrecedence": [
+    "primary-usgs-continuous",
+    "bias-corrected-noaa-historical-fill",
+    "official-usgs-storm-tide-crest-override"
+  ],
+  "primaryUsgsGaugeId": "01410600",
+  "noaaStationId": "8534720",
+  "noaaRegion": "atlantic-city",
+  "noaaBiasCorrectionFt": -0.031,
+  "crestUsgsStationId": "01410570",
+  "calibrationPairKey": "01410600:atlantic-city"
+}
